@@ -1,0 +1,15 @@
+var number = -5;
+var result = Math.abs(number);
+console.log(result);
+number = 23.49999;
+result = Math.round(number);
+console.log(result);
+number = 23.49999;
+result = Math.ceil(number);
+console.log(result);
+number = 5.9999;
+result = Math.floor(number);
+console.log(result);
+number = Math.random() * 100;
+result = Math.round(number);
+console.log(result);
